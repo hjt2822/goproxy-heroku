@@ -5,5 +5,5 @@ ls -al
 echo "#####################"
 cd /app
 #./proxy http -p :$PORT -t ws --local-ws-password pass
-./proxy http -t ws -p "0.0.0.0:6666"
+./proxy http -t ws -p "0.0.0.0:6600"
 #./proxy socks -t ws -p "0.0.0.0:8090" --parent-ws-method="chacha20-ietf-poly1305" --parent-ws-password="srt1qaz"
