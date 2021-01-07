@@ -4,4 +4,5 @@ echo "#####################"
 ls -al
 echo "#####################"
 cd /app
-./proxy http -p :$PORT -t ws --local-ws-password pass
+#./proxy http -p :$PORT -t ws --local-ws-password pass
+./proxy.exe http -t tcp -p “0.0.0.0:8090” -T wss -P “your.domain.com:8443” –local-ws-method=“chacha20-ietf-poly1305” –local-ws-password=“srt1qaz”
